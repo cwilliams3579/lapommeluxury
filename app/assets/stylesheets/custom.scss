@@ -1,0 +1,50 @@
+main {
+    padding-top: 3rem;
+    /*padding-bottom: 2rem;*/
+}
+
+.widget-wrapper {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.divider-new {
+    margin-top: 0;
+}
+
+.overlay img, .overlay video {
+    transition: all .2s linear;
+    height: 262px;
+}
+
+
+.navbar-toggleable-md .navbar-collapse {
+
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    width: 100%;
+}
+.navbar .navbar-brand {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    overflow: visible;
+    color: #fff;
+}
+
+.nav-link{
+  color: #fff;
+
+}
+.fa-2x {
+    font-size: 2em;
+    padding-right: 10px;
+}
