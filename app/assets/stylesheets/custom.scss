@@ -1,8 +1,25 @@
+$primary-color: #0275D8;
 main {
     padding-top: 3rem;
     /*padding-bottom: 2rem;*/
 }
 
+.widget-wrapper h4, .h2-responsive, strong {
+  color: $primary-color;
+}
+
+.card-title {
+  color: $primary-color;
+}
+
+.card-block h5 {
+  color: $primary-color;
+}
+
+.card .card-title, a:hover {
+    transition: .4s;
+    color: $primary-color;
+}
 .widget-wrapper {
     padding-bottom: 2rem;
     border-bottom: 1px solid #e0e0e0;
